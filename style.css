@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "font";
+    src: url("High Tide Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: "font1";
+    src: url("Oswald-Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: "font2";
+    src: url("Oswald-Regular.otf") format("opentype");
+}
+#left{
+	width: 25%;
+	background-color: #282828;
+	float: left;
+	height:100%;
+	font-family: font1;
+	text-align: center;
+	color:orange;
+}
+#right{
+   width: 75%;
+   background-color: #FF8C00;
+   float: right;
+   height: 100%;
+   font-family: font2;
+   color: #282828;
+}
+#parent {
+    width: 400px;
+    height:400px;
+}
+#first {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    background-color: #181818;
+    border-color: blue;
+    border :10px;
+}
+#month{
+    font-size: 40px;
+    font-family: font;
+    color: blue;
+
+}
+#date{
+    font-size: 40px;
+    font-family: font;
+    color: #FF4500
+}
+#circle{
+    text-align: center;
+	background-color: blue;
+	border-radius: 100%;
+	width:55px;
+	height:55px;
+	transform: translateX(310%);
+}
+#second {
+    width: 100%;
+    height: 75%;
+    background-color: red;  
+}
